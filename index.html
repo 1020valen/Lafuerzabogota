@@ -14,41 +14,72 @@
 </head>
 <body class="bg-white text-gray-900">
 
-  <!-- Hero Section -->
-  <section class="relative bg-[#171E3D] text-white">
-    <div class="absolute inset-0 bg-gradient-to-r from-[#171E3D] via-[#171E3D] to-[#D90B15] opacity-90" ></div>
-    <div class="relative z-10 container mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between">
-      <div class="max-w-lg text-center md:text-left">
-      
- </div>  <div class="container">
-    <div class="row">
-          <div class="col-md-12 clearfix kad-header-left">
-            <div id="logo" class="logocase">
-              <a class="brand logofont" href="#">
-                        
-                       <div id="thelogo"><img src="logo/Logo.PNG" alt="La Fuerza de la Paz" class="kad-standard-logo" />
-                                                 </div>               </a>
-                               
+ <!-- Page cached by LiteSpeed Cache 7.2 on 2025-09-08 16:32:48 --><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afíliate - La Fuerza de la Paz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Arial', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+
+<!-- Hero Section -->
+<section class="relative bg-[#171E3D] text-white w-full">
+  <!-- Degradado de fondo -->
+  <div class="absolute inset-0 bg-gradient-to-r from-[#171E3D] via-[#171E3D] to-[#D90B15] opacity-90"></div>
+
+  <!-- Contenedor del contenido del banner -->
+  <div class="relative z-10 w-full px-6 py-20 flex flex-col md:flex-row items-center justify-between">
     
-                <div class="flex justify-center">
-        <p class="mt-10 text-lg text-gray-200">Afíliate como militante y haz parte de la transformación social y política que soñamos juntos.</p> </div>
-        
-        <div class="flex justify-center">
+    
+    <!-- Texto o elementos de la izquierda -->
+    <div class="max-w-lg text-center md:text-left">
+      <!-- Aquí puedes poner texto, botón, etc. -->
+       
+    </div>
+
+    <!-- Logo a la derecha -->
+    <div class="w-auto">
+      <div class="row">
+        <div class="col-md-12 clearfix kad-header-left">
+          <div id="logo" class="logocase">
+            <a class="brand logofont" href="#">
+              <div id="thelogo">
+                <img src="logo/Logo.PNG" alt="La Fuerza de la Paz" class="kad-standard-logo" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<div class="max-w-lg text-center mx-auto">
+  <h3 class="text-xl md:text-3xl font-semibold mt-12 mb-6">La Fuerza Bogotá</h3>
+
+
+  <p class="text-lg md:text-xl mb-8">Afíliate como militante y haz parte de la transformación social y política que soñamos juntos.</p>
   <a href="#formulario" 
-     class="inline-block mt-20 mb-12  px-8 py-3 bg-[#D90B15] text-white font-semibold rounded-xl shadow-lg hover:bg-red-700 transition">
-    Afíliate Ahora
-  </a>
+   class="bg-[#D90B15] hover:bg-red-700 text-white px-6 py-3 rounded-xl font-semibold transition">
+  Afíliate Ahora
+</a>
 </div>
 
-
-      <!--video-->
-
+<!-- Video  -->
 <div class="mt-20 md:mt-0 flex justify-center w-full mb-12">
-  <video autoplay loop controls class="rounded-2xl shadow-xl border-4 border-white w-[1050px] h-[650px] object-cover">
+  <video autoplay loop controls 
+         class="rounded-2xl shadow-xl border-4 border-white w-full max-w-[700px] h-auto object-cover mt-12">
     <source src="video/Video fuerza Bogota.mp4" type="video/mp4">
-    Tu navegador no soporta la reproducción de videos.
+    
   </video>
 </div>
+
+
 
 
 
@@ -64,34 +95,32 @@
     </p>
   </section>
 
- <!-- Formulario -->
+  <!-- Formulario -->
 <section id="formulario" class="py-16 bg-white">
   <div class="max-w-3xl mx-auto px-6 bg-gray-100 rounded-3xl shadow-xl p-10">
     <h3 class="text-2xl font-bold text-[#171E3D] mb-8 text-center">Formulario de Afiliación</h3>
 
-    <!-- FORMULARIO NETLIFY -->
+    <!-- FORMULARIO SOLO NETLIFY -->
     <form name="afiliacion" method="POST" data-netlify="true" enctype="multipart/form-data" class="space-y-6">
-
       <!-- Campo oculto obligatorio para Netlify -->
       <input type="hidden" name="form-name" value="afiliacion">
 
       <input type="text" name="nombre" placeholder="Nombre completo" required 
-             class="w-full border border-gray-300 rounded-lg p-3 text-[#171E3D] focus:ring-2 focus:ring-[#D90B15]">
+        class="w-full border border-gray-300 rounded-lg p-3 text-[#171E3D] focus:ring-2 focus:ring-[#D90B15]">
 
-      <input type="number" name="number" placeholder="Documento de identificación" required 
-             class="w-full border border-gray-300 rounded-lg p-3 text-[#171E3D] focus:ring-2 focus:ring-[#D90B15]">
+      <input type="number" name="numero_identificacion" placeholder="Documento de identificación" required 
+        class="w-full border border-gray-300 rounded-lg p-3 text-[#171E3D] focus:ring-2 focus:ring-[#D90B15]">
 
       <input type="email" name="correo" placeholder="Correo electrónico" required 
-             class="w-full border border-gray-300 rounded-lg p-3 text-[#171E3D] focus:ring-2 focus:ring-[#D90B15]">
+        class="w-full border border-gray-300 rounded-lg p-3 text-[#171E3D] focus:ring-2 focus:ring-[#D90B15]">
 
       <input type="tel" name="telefono" placeholder="Teléfono" required 
-             class="w-full border border-gray-300 rounded-lg p-3 text-[#171E3D] focus:ring-2 focus:ring-[#D90B15]">
+        class="w-full border border-gray-300 rounded-lg p-3 text-[#171E3D] focus:ring-2 focus:ring-[#D90B15]">
 
       <!-- Desplegable -->
       <div class="mb-4">
         <label for="tipo" class="block text-[#171E3D] font-semibold mb-2">Selecciona una opción</label>
-        <select name="tipo" id="tipo"
-                class="w-full border border-gray-300 rounded-lg p-3 text-black focus:ring-2 focus:ring-[#D90B15]">
+        <select name="tipo" id="tipo" class="w-full border border-gray-300 rounded-lg p-3 text-black focus:ring-2 focus:ring-[#D90B15]">
           <option value="">Por favor elige una opción</option>
           <option value="camara">Candidato Cámara de Representantes</option>
           <option value="senado">Candidato Senado</option>
@@ -114,28 +143,25 @@
       </div>
 
       <textarea name="comentarios" rows="4" placeholder="Comentarios / objecciones" 
-                class="w-full border border-gray-300 rounded-lg p-3 text-black focus:ring-2 focus:ring-[#D90B15]"></textarea>
+        class="w-full border border-gray-300 rounded-lg p-3 text-black focus:ring-2 focus:ring-[#D90B15]"></textarea>
 
-      <input type="file" name="archivo" 
-             class="w-full border border-gray-300 rounded-lg p-3 text-black">
+      <input type="file" name="archivo" class="w-full border border-gray-300 rounded-lg p-3 text-black">
 
       <div class="flex items-center space-x-2">
-        <input type="checkbox" id="autorizacion" name="autorizacion" required 
-               class="h-4 w-4 text-[#D90B15]">
+        <input type="checkbox" id="autorizacion" name="autorizacion" required class="h-4 w-4 text-[#D90B15]">
         <label for="autorizacion" class="text-sm text-black">
-          En cumplimiento de la ley 1581 de 2012 solicitamos su autorización para poder utilizar sus datos de contacto.  
+          En cumplimiento de la ley 1581 de 2012 solicitamos su autorización para poder utilizar sus datos de contacto. 
           <strong>Autorizo.</strong>
         </label>
       </div>
 
-      <button type="submit" 
-              class="w-full bg-[#D90B15] text-white font-semibold px-6 py-3 rounded-xl hover:bg-red-700 transition">
-        Enviar Afiliación
+      <!-- Botón -->
+      <button type="submit" class="w-full bg-[#D90B15] text-white py-3 rounded-lg font-bold hover:bg-[#b00911] transition">
+        Enviar
       </button>
     </form>
   </div>
 </section>
-
 
 
 
@@ -187,10 +213,3 @@ document.getElementById("afiliacionForm").addEventListener("submit", function(e)
 
 </body>
 </html>
-
-
-<!-- pagina sin logo de Bogota ni formulario-->
-
-
-
-
